@@ -12,7 +12,7 @@
 <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<div class="topbar"><div class="wrap"><span>Hai bisogno di aiuto? Chiama il 1522, numero antiviolenza gratuito, 24 ore su 24.</span><span class="social"><a href="https://www.instagram.com/rifioriredame/">Instagram</a><a href="https://www.facebook.com/rifioriredame">Facebook</a><a href="https://it.linkedin.com/company/kairosimpresasociale">LinkedIn</a></span></div></div>
+<div class="helpbar" role="region" aria-label="Aiuto antiviolenza"><div class="wrap"><span>Hai bisogno di aiuto? <a href="tel:1522">Chiama il 1522</a>, gratuito, 24 ore su 24.</span><a class="quickexit" href="https://www.google.it" onclick="location.replace(this.href);return false;">Esci subito</a></div></div>
 <header class="site"><div class="wrap">
 <a class="brand" href="index.html"><img src="img/kairos-logo.png" alt="Kairos, home"><span>Impresa Sociale</span></a>
 <nav class="main" aria-label="Menu principale"><ul><li><a href="chi-siamo.html">Chi siamo</a></li><li><a href="spazi.html" aria-current="page">Spazi</a></li><li><a href="servizi.html">Servizi</a></li><li><a href="progetti.html">Progetti</a></li><li><a href="contatti.html">Contatti</a></li><li><a class="btn" href="dona.html">Dona ora</a></li></ul></nav>
@@ -20,20 +20,30 @@
 </div></header>
 <main>
 <section class="pagehead"><div class="wrap"><div class="crumbs"><a href="index.html">Home</a> / <a href="spazi.html">Spazi</a> / Zia Mariù</div><p class="eyebrow">Spazio educativo 0-17</p><h1>Zia Mariù, uno spazio per crescere</h1><p>Nido, ludoteca, doposcuola, spazio giovani e centro estivo a Crotone.</p></div></section><section><div class="wrap two"><div class="prose">
-<h2>La nostra missione educativa</h2><p>Zia Mariù nasce nel 2018 per offrire alle mamme di DaMe uno spazio sicuro e professionale per i propri bambini. Negli anni si è aperto a bambin* e ragazz* da 0 a 17 anni.</p>
+<h2>La nostra missione educativa</h2><p>Zia Mariù nasce nel 2018 per offrire alle mamme di DaMe uno spazio sicuro e professionale per i propri bambini. Negli anni si è aperto a bambine, bambini e ragazzi da 0 a 17 anni.</p>
 <h3>Cosa facciamo</h3><ul class="tick"><li>Nido alternativo</li><li>Doposcuola con tutor DSA/BES</li><li>Ludoteca</li><li>Centro di aggregazione giovanile</li><li>Babysitting a richiesta</li><li>Centro estivo e invernale</li><li>Feste e compleanni sospesi</li></ul>
 <h3>Come lavoriamo</h3><p>Peer education, outdoor education, orto didattico, coding e robotica, yoga e pet education: una pedagogia attiva che mette sempre al centro il bambino.</p>
-<h3>Collaborazioni</h3><p>Dal 2023 siamo sede del Movimento SottoSopra per Save the Children. Dal 2024 siamo sede operativa del Servizio Educativo Territoriale dell'ambito di Crotone.</p></div><img src="img/ziamariu-giochi.jpg" alt="Mani che costruiscono un percorso con i legnetti"></div></section><section class="cta"><div class="wrap"><div><h2>La felicità è vera solo se condivisa.</h2><p>La tua donazione sostiene l'accoglienza di donne e bambin3, i percorsi di uscita dalla violenza e l'autonomia.</p></div><a class="btn white" href="dona.html">Dona ora</a></div></section>
+<h3>Collaborazioni</h3><p>Dal 2023 siamo sede del Movimento SottoSopra per Save the Children. Dal 2024 siamo sede operativa del Servizio Educativo Territoriale dell'ambito di Crotone.</p></div><img src="img/ziamariu-giochi.jpg" alt="Mani che costruiscono un percorso con i legnetti"></div></section><section class="cta"><div class="wrap"><div><h2>La felicità è vera solo se condivisa.</h2><p>La tua donazione sostiene l'accoglienza di donne, bambine e bambini, i percorsi di uscita dalla violenza e l'autonomia.</p></div><a class="btn white" href="dona.html">Dona ora</a></div></section>
 </main>
 <footer class="site"><div class="wrap">
 <div class="cols">
 <div><p class="sans" style="font-weight:800;font-size:18px">Kairos · Impresa Sociale</p><p>Vico Pompei 30, 88900 Crotone</p></div>
 <div><p class="sans" style="font-weight:700">Contatti</p><p>Tel. +39 377 08 79 741</p><p>[email istituzionale da definire]</p></div>
 <div><p class="sans" style="font-weight:700">Spazi</p><p><a href="dame.html">DaMe</a> · <a href="zia-mariu.html">Zia Mariù</a> · <a href="civico-d.html">Civico D</a></p><p><a href="casa-del-quartiere.html">Casa del Quartiere</a> · <a href="ostello.html">Ostello</a></p></div>
+<div><p class="sans" style="font-weight:700">Seguici</p><p><a href="https://www.instagram.com/rifioriredame/">Instagram</a> · <a href="https://www.facebook.com/rifioriredame">Facebook</a> · <a href="https://it.linkedin.com/company/kairosimpresasociale">LinkedIn</a></p></div>
 <div><p class="sans" style="font-weight:700">Trasparenza</p><p><a href="chi-siamo.html#trasparenza">Bilanci</a> · <a href="privacy.html">Privacy</a></p></div>
 </div>
 <p class="legal">Kairos Società Cooperativa Sociale · P.IVA 03028680795 · Iscritta al RUNTS n. 117342</p>
 </div></footer>
 <div class="demo">Demo di proposta, non è il sito ufficiale.</div>
+<script>
+(function(){var els=document.querySelectorAll('[data-count]');if(!els.length)return;
+var reduce=window.matchMedia&&window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+function run(el){var end=+el.dataset.count,t0=null,d=1400;if(reduce){el.textContent=end;return;}
+t0=Date.now();var iv=setInterval(function(){var p=Math.min((Date.now()-t0)/d,1),e=1-Math.pow(1-p,3);el.textContent=Math.round(end*e).toLocaleString('it-IT');if(p>=1)clearInterval(iv);},30);}
+if(!('IntersectionObserver' in window)){return;}
+var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){run(e.target);io.unobserve(e.target);}});},{threshold:.5});
+els.forEach(function(el){io.observe(el);});})();
+</script>
 </body>
 </html>

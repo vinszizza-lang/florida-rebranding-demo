@@ -12,7 +12,7 @@
 <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<div class="topbar"><div class="wrap"><span>Hai bisogno di aiuto? Chiama il 1522, numero antiviolenza gratuito, 24 ore su 24.</span><span class="social"><a href="https://www.instagram.com/rifioriredame/">Instagram</a><a href="https://www.facebook.com/rifioriredame">Facebook</a><a href="https://it.linkedin.com/company/kairosimpresasociale">LinkedIn</a></span></div></div>
+<div class="helpbar" role="region" aria-label="Aiuto antiviolenza"><div class="wrap"><span>Hai bisogno di aiuto? <a href="tel:1522">Chiama il 1522</a>, gratuito, 24 ore su 24.</span><a class="quickexit" href="https://www.google.it" onclick="location.replace(this.href);return false;">Esci subito</a></div></div>
 <header class="site"><div class="wrap">
 <a class="brand" href="index.html"><img src="img/kairos-logo.png" alt="Kairos, home"><span>Impresa Sociale</span></a>
 <nav class="main" aria-label="Menu principale"><ul><li><a href="chi-siamo.html">Chi siamo</a></li><li><a href="spazi.html">Spazi</a></li><li><a href="servizi.html">Servizi</a></li><li><a href="progetti.html" aria-current="page">Progetti</a></li><li><a href="contatti.html">Contatti</a></li><li><a class="btn" href="dona.html">Dona ora</a></li></ul></nav>
@@ -21,14 +21,14 @@
 <main>
 <section class="pagehead"><div class="wrap"><div class="crumbs"><a href="index.html">Home</a> / Progetti</div><p class="eyebrow">Progetti</p><h1>Progettiamo welfare per le sfide di oggi</h1><p>Progetti locali, nazionali ed europei, finanziati da fondazioni, ministeri, Regione Calabria ed enti locali.</p></div></section>
 <section><div class="wrap"><h2 style="margin-bottom:24px">Progetti in corso</h2>
-<div style="overflow-x:auto;-webkit-overflow-scrolling:touch"><table class="tab"><thead><tr><th>Progetto</th><th>Periodo</th><th>Cosa facciamo</th><th>Finanziatore</th></tr></thead><tbody>
-<tr><td><b>Più Ponti</b></td><td>2026, in corso</td><td>Ascolto, antiviolenza e orientamento nelle scuole di Crotone, Isola di Capo Rizzuto e Catanzaro</td><td>Fondazione Haiku</td></tr>
-<tr><td><b>Un tetto che cura · Reset</b></td><td>2026, in corso</td><td>Housing First e Stazioni di Posta per persone senza dimora</td><td>Roma Capitale, Municipio X</td></tr>
-<tr><td><b>P.A.R.I.</b></td><td>2026, in corso</td><td>Supporto psicologico, sport, arte e pet therapy per giovani 15-34 anni</td><td>Provincia di Crotone</td></tr>
-<tr><td><b>Housing First PNRR</b></td><td>2025-2026</td><td>Quattro strutture di accoglienza nell'area di Crotone, con percorsi verso casa e lavoro</td><td>PNRR, Missione 5</td></tr>
-<tr><td><b>Concilia</b></td><td>2025-2026</td><td>Voucher per attività socio-educative e sostegno scolastico 6-17 anni</td><td>Regione Calabria</td></tr>
-<tr><td><b>Centro estivo comunale</b></td><td>dal 2023</td><td>Centro estivo gratuito per 5-17 anni, anche con disabilità</td><td>Comune di Crotone</td></tr>
-</tbody></table></div></div></section>
+<table class="tab"><thead><tr><th>Progetto</th><th>Periodo</th><th>Cosa facciamo</th><th>Finanziatore</th></tr></thead><tbody>
+<tr><td data-label="Progetto"><b>Più Ponti</b></td><td data-label="Periodo">2026, in corso</td><td data-label="Cosa facciamo">Ascolto, antiviolenza e orientamento nelle scuole di Crotone, Isola di Capo Rizzuto e Catanzaro</td><td data-label="Finanziatore">Fondazione Haiku</td></tr>
+<tr><td data-label="Progetto"><b>Un tetto che cura · Reset</b></td><td data-label="Periodo">2026, in corso</td><td data-label="Cosa facciamo">Housing First e Stazioni di Posta per persone senza dimora</td><td data-label="Finanziatore">Roma Capitale, Municipio X</td></tr>
+<tr><td data-label="Progetto"><b>P.A.R.I.</b></td><td data-label="Periodo">2026, in corso</td><td data-label="Cosa facciamo">Supporto psicologico, sport, arte e pet therapy per giovani 15-34 anni</td><td data-label="Finanziatore">Provincia di Crotone</td></tr>
+<tr><td data-label="Progetto"><b>Housing First PNRR</b></td><td data-label="Periodo">2025-2026</td><td data-label="Cosa facciamo">Quattro strutture di accoglienza nell'area di Crotone, con percorsi verso casa e lavoro</td><td data-label="Finanziatore">PNRR, Missione 5</td></tr>
+<tr><td data-label="Progetto"><b>Concilia</b></td><td data-label="Periodo">2025-2026</td><td data-label="Cosa facciamo">Voucher per attività socio-educative e sostegno scolastico 6-17 anni</td><td data-label="Finanziatore">Regione Calabria</td></tr>
+<tr><td data-label="Progetto"><b>Centro estivo comunale</b></td><td data-label="Periodo">dal 2023</td><td data-label="Cosa facciamo">Centro estivo gratuito per 5-17 anni, anche con disabilità</td><td data-label="Finanziatore">Comune di Crotone</td></tr>
+</tbody></table></div></section>
 <section class="rosa"><div class="wrap"><h2 style="margin-bottom:24px">Progetti realizzati</h2><div class="grid">
 <div class="box"><h3>Hausilio</h3><p>Il progetto con Fondazione con il Sud che ha dato vita a DaMe e Zia Mariù.</p></div>
 <div class="box"><h3>Woomanity</h3><p>Corsi gratuiti di alta formazione per 250+ donne under-35 in tutta Italia, in due edizioni.</p></div>
@@ -37,17 +37,27 @@
 <div class="box"><h3>Gr.In.</h3><p>Contrasto alla povertà educativa con Florida APS: doposcuola, centri estivi, sport inclusivo.</p></div>
 <div class="box"><h3>Dormitorio San Francesco</h3><p>Il primo asilo notturno di Crotone per persone senza dimora: 560+ ospiti accolti.</p></div>
 </div></div></section>
-<section class="cta"><div class="wrap"><div><h2>La felicità è vera solo se condivisa.</h2><p>La tua donazione sostiene l'accoglienza di donne e bambin3, i percorsi di uscita dalla violenza e l'autonomia.</p></div><a class="btn white" href="dona.html">Dona ora</a></div></section>
+<section class="cta"><div class="wrap"><div><h2>La felicità è vera solo se condivisa.</h2><p>La tua donazione sostiene l'accoglienza di donne, bambine e bambini, i percorsi di uscita dalla violenza e l'autonomia.</p></div><a class="btn white" href="dona.html">Dona ora</a></div></section>
 </main>
 <footer class="site"><div class="wrap">
 <div class="cols">
 <div><p class="sans" style="font-weight:800;font-size:18px">Kairos · Impresa Sociale</p><p>Vico Pompei 30, 88900 Crotone</p></div>
 <div><p class="sans" style="font-weight:700">Contatti</p><p>Tel. +39 377 08 79 741</p><p>[email istituzionale da definire]</p></div>
 <div><p class="sans" style="font-weight:700">Spazi</p><p><a href="dame.html">DaMe</a> · <a href="zia-mariu.html">Zia Mariù</a> · <a href="civico-d.html">Civico D</a></p><p><a href="casa-del-quartiere.html">Casa del Quartiere</a> · <a href="ostello.html">Ostello</a></p></div>
+<div><p class="sans" style="font-weight:700">Seguici</p><p><a href="https://www.instagram.com/rifioriredame/">Instagram</a> · <a href="https://www.facebook.com/rifioriredame">Facebook</a> · <a href="https://it.linkedin.com/company/kairosimpresasociale">LinkedIn</a></p></div>
 <div><p class="sans" style="font-weight:700">Trasparenza</p><p><a href="chi-siamo.html#trasparenza">Bilanci</a> · <a href="privacy.html">Privacy</a></p></div>
 </div>
 <p class="legal">Kairos Società Cooperativa Sociale · P.IVA 03028680795 · Iscritta al RUNTS n. 117342</p>
 </div></footer>
 <div class="demo">Demo di proposta, non è il sito ufficiale.</div>
+<script>
+(function(){var els=document.querySelectorAll('[data-count]');if(!els.length)return;
+var reduce=window.matchMedia&&window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+function run(el){var end=+el.dataset.count,t0=null,d=1400;if(reduce){el.textContent=end;return;}
+t0=Date.now();var iv=setInterval(function(){var p=Math.min((Date.now()-t0)/d,1),e=1-Math.pow(1-p,3);el.textContent=Math.round(end*e).toLocaleString('it-IT');if(p>=1)clearInterval(iv);},30);}
+if(!('IntersectionObserver' in window)){return;}
+var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){run(e.target);io.unobserve(e.target);}});},{threshold:.5});
+els.forEach(function(el){io.observe(el);});})();
+</script>
 </body>
 </html>
